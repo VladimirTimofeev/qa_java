@@ -24,8 +24,6 @@ public class CatTest {
         assertEquals("Мяу", actualsSound);
     }
 
-
-
     @Test
     public void getFoodTest() throws Exception {
         Cat cat = new Cat(feline);
@@ -34,5 +32,4 @@ public class CatTest {
         List<String> actualEatMeat = List.of("Хищник");
         assertEquals(expectedEatMeat, actualEatMeat);
     }
-
 }
