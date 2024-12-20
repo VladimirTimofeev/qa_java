@@ -28,7 +28,7 @@ public class LionParametersTest {
     return new Object[][] {
             {feline, "Самец", true},
             {feline, "Самка", false},
-            {feline, "Самка", true},
+//            {feline, "Самка", true},
         };
     }
 
